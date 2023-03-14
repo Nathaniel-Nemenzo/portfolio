@@ -35,15 +35,15 @@ export async function getTweetCount() {
   return Number(data.public_metrics.tweet_count);
 }
 
-export const getStarCount = cache(async () => {
+export const getRepoCount = cache(async () => {
   const octokit = new Octokit({
     auth: process.env.GITHUB_TOKEN,
   });
 
-  const req = await octokit.request('GET /repos/{owner}/{repo}', {
-    owner: 'leerob',
-    repo: 'leerob.io',
+  const req = await octokit.request('GET /users/{owner}', {
+    owner: 'Nathaniel-Nemenzo',
+    // repo: 'leerob.io',
   });
 
-  return req.data.stargazers_count;
+  return req.data.public_repos;
 });

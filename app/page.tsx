@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
+import { getBlogViews, getTweetCount, getRepoCount } from 'lib/metrics';
 import {
   ArrowIcon,
   GitHubIcon,
@@ -12,11 +12,11 @@ import { name, about, bio, avatar } from 'lib/info';
 export const revalidate = 60;
 
 export default async function HomePage() {
-  let starCount, views, tweetCount;
+  let repoCount, views, tweetCount;
 
   try {
-    [starCount, views, tweetCount] = await Promise.all([
-      getStarCount(),
+    [repoCount, views, tweetCount] = await Promise.all([
+      getRepoCount(),
       getBlogViews(),
       getTweetCount(),
     ]);
@@ -40,7 +40,7 @@ export default async function HomePage() {
           priority
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
-          <a
+          {/* <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/leeerob"
@@ -48,15 +48,15 @@ export default async function HomePage() {
           >
             <TwitterIcon />
             {`${tweetCount.toLocaleString()} tweets all time`}
-          </a>
+          </a> */}
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/Nathaniel-Nemenzo"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            {`${repoCount.toLocaleString()} repositories`}
           </a>
           <Link href="/blog" className="flex items-center">
             <ViewsIcon />
@@ -73,10 +73,10 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://linkedin.com/in/nnemenzo"
           >
             <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
+            <p className="h-7">connect with me on linkedin</p>
           </a>
         </li>
         <li>

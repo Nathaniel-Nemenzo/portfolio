@@ -29,20 +29,20 @@ const computedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.image
-        ? `https://leerob.io${doc.image}`
-        : `https://leerob.io/api/og?title=${doc.title}`,
-      url: `https://leerob.io/blog/${doc._raw.flattenedPath}`,
+        ? `https://nnemenzo.com${doc.image}`
+        : `https://nnemenzo.com/api/og?title=${doc.title}`,
+      url: `https://nnemenzo.com/blog/${doc._raw.flattenedPath}`,
       author: {
         '@type': 'Person',
-        name: 'Lee Robinson',
-      },
+        name: 'Nathaniel Nemenzo',
+      }
     }),
   },
 };
 
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
-  filePathPattern: `**/*.mdx`,
+  filePathPattern: `**/blog*.mdx`,
   contentType: 'mdx',
   fields: {
     title: {
@@ -64,9 +64,41 @@ export const Blog = defineDocumentType(() => ({
   computedFields,
 }));
 
+export const Project = defineDocumentType(() => ({
+  name: 'Project',
+  filePathPattern: '**/project*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: {
+      type: 'string',
+      required: true
+    },
+    publishedAt: {
+      type: 'string',
+      required: true
+    },
+    summary: {
+      type: 'string',
+      required: true
+    },
+    link: {
+      type: 'string',
+      required: true
+    },
+    keywords: {
+      type: 'string',
+      required: true
+    },
+    image: {
+      type: 'string'
+    }
+  },
+  computedFields
+}));
+
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Blog],
+  documentTypes: [Blog, Project],
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [
