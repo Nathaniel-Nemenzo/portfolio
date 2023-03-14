@@ -1,22 +1,18 @@
-import me from '../app/avatar.jpg';
+import me from '../app/me.jpeg';
 
-export const name = 'Lee Robinson';
+export const name = 'Nathaniel Nemenzo';
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm Lee. I'm the <b>VP of Developer Experience at Vercel</b> where my
-      team helps developers build a faster web.
+      Hi! I'm a software engineer and student at The University of Texas at Austin. My interests include learning agents, operating systems, architecture, and creating cool things.  <br/><br/>
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      I'm a Next.js contributor and help lead our open-source communities. I'm
-      passionate about frontend development and have created courses on React,
-      Next.js, and web development. I'm an advisor and investor in early stage
-      startups.
+      Previously, I've interned at Amazon and NASA. I've also spent time in the Learning Agents Research Group at UT Austin. <br/><br/>
     </>
   );
 };
