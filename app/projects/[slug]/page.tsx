@@ -29,8 +29,8 @@ export async function generateMetadata({
         slug,
     } = project;
     const ogImage = image
-    ? `https://leerob.io${image}`
-    : `https://leerob.io/api/og?title=${title}`;
+    ? `https://nnemenzo.com${image}`
+    : `https://nnemenzo.com/api/og?title=${title}`;
 
     return {
         title,

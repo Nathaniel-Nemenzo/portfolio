@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Nathaniel Nemenzo',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://nnemenzo.com/og.jpg',
         width: 1920,
         height: 1080,
       },

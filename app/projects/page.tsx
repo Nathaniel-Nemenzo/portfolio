@@ -31,7 +31,7 @@ export default async function ProjectPage() {
           <div className="w-full flex flex-col">
             <p className="font-bold font-serif">{post.title}</p>
             <p className="font-light text-sm text-neutral-500 my-1">{post.publishedAt}</p>
-            <div className="flex">
+            <div className="flex flex-wrap">
             {
               post.keywords.split(',').map((keyword) => (
                 <span className="bg-gray-200 rounded-full px-2 text-sm font-serif text-gray-700 mr-2 mt-1" key={keyword}>{keyword}</span>
