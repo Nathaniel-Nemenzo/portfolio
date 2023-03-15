@@ -28,13 +28,13 @@ const navItems = {
     name: 'projects',
     x: 182,
     y: 104,
-    w: '100px',
+    w: '84px',
   },
   '/resume': {
     name: 'resume',
     x: 242,
     y: 140,
-    w: '100px',
+    w: '78px',
   }
 };
 

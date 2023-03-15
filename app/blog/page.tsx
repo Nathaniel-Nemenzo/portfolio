@@ -12,6 +12,7 @@ export default async function BlogPage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif mb-5">Blog</h1>
+      Coming soon!
       {allBlogs
         .sort((a, b) => {
           if (new Date(a.publishedAt) > new Date(b.publishedAt)) {
