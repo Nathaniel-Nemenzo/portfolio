@@ -24,7 +24,7 @@ export default function AboutPage() {
        </p> 
        <hr/>
        <p>
-        Outside of school, work, and coding, I love spending time with friends and family. I also enjoy going on walks with my girlfriend and playing the piano. Recently, I've taken an interest in walkable environments and architecture. <br/><br/>
+        When relaxing, I love spending time with friends and family. I also enjoy going on walks with my girlfriend and playing the piano. Recently, I've taken an interest in walkable environments and architecture. <br/><br/>
         I love reading, but I find it hard to find books that I <i>want</i> to read. If you happen to come across this page, please send me recommendations of books to read! Also, I love listening to music. I listen to almost anything (sorry country music) and I'd also love music recommendations.
        </p>
        <div className="flex flex-col gap-2 md:flex-row md:gap-2">
