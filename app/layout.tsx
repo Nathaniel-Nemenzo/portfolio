@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Nathaniel Nemenzo',
     images: [
       {
-        url: 'https://nnemenzo.com/og.jpg',
+        url: 'https://nnemenzo.com/og.png',
         width: 1920,
         height: 1080,
       },
