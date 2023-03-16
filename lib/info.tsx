@@ -5,7 +5,7 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hi! I'm a software engineer and student at The University of Texas at Austin. My interests include learning agents, operating systems, and creating cool things.  <br/><br/>
+      Hi! I'm a software engineer and student at The University of Texas at Austin. My interests include learning agents, systems, and creating cool things.  <br/><br/>
     </>
   );
 };
