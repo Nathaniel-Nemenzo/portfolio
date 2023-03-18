@@ -72,7 +72,7 @@ export default async function Project({ params }) {
           <h1 className="font-bold text-3xl font-serif max-w-[650px]">
             <Balancer>{project.title}</Balancer>
           </h1>
-          <div className="grid grid-cols-[0.14fr_0.23fr_auto] items-center mt-4 mb-8 font-light text-sm max-w-[650px]">
+          <div className="grid grid-cols-[0.15fr_0.23fr_auto] items-center mt-4 mb-8 font-light text-sm max-w-[650px]">
             <div className="bg-neutral-100 dark:bg-neutral-800 rounded-md px-2 py-1 tracking-tighter mr-2">
               {project.publishedAt}
             </div>
