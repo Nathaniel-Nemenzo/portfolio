@@ -34,7 +34,7 @@ export default async function ProjectPage() {
             <div className="flex flex-wrap">
             {
               post.keywords.split(',').map((keyword) => (
-                <span className="bg-gray-200 rounded-full px-2 text-sm font-serif text-gray-700 mr-2 mt-1" key={keyword}>{keyword}</span>
+                <span className="bg-gray-200 rounded-full px-2 text-sm font-light text-gray-700 mr-2 mt-1" key={keyword}>{keyword}</span>
 
               ))
             }
