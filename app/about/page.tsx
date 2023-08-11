@@ -25,7 +25,7 @@ export default function AboutPage() {
        <hr/>
        <p>
         When relaxing, I love spending time with friends and family. I also enjoy spending time with my girlfriend and playing the piano. I've always been interested in drawing and art, but I find it hard to actually practice and commit to getting good at it. But after watching <u><a href="https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse">this</a></u>, I once again am motivated to continue my studies in drawing. <br/><br/>
-        I love reading, but I find it hard to find books that I <i>want</i> to read. If you happen to come across this page, please send me recommendations of books to read! Also, I love listening to music. I listen to almost anything (sorry country music) and I'd also love music recommendations.
+        I love reading, but I find it hard to find books that I <i>want</i> to read. Also, I love listening to music. I listen to almost anything (sorry country music).
        </p>
        <div className="flex flex-col gap-2 md:flex-row md:gap-2">
        <a
