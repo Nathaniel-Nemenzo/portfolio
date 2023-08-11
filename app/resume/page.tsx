@@ -17,7 +17,8 @@ export default function ResumePage() {
           <div className="flex justify-between mb-1 font-light">
             <div>
               <div>The University of Texas at Austin</div>
-              <div className="text-gray-700 italic dark:text-gray-300">Bachelor of Science in Computer Science • August 2019 – current</div>
+              <div className="text-gray-700 italic dark:text-gray-300">Bachelor of Science in Computer Science • August 2019 – May 2023</div>
+              <div className="text-gray-700 italic dark:text-gray-300">Master of Science in Computer Science • August 2023 – current</div>
             </div>
           </div>
         </div>
@@ -106,8 +107,9 @@ export default function ResumePage() {
         </div>
 
         <h2 className="font-bold text-1xl mb-2">Professional Certifications</h2>
-        <div className="mb-5">
+        <div className="mb-1">
           <div className="flex justify-between font-light">
+            
             <div className="mb-1">
               <div><a href="
                    https://www.coursera.org/account/accomplishments/certificate/5U9QMFBDNVH4"
@@ -116,7 +118,7 @@ export default function ResumePage() {
               </div>
             </div>
         </div>
-        <div className="mb-5">
+        <div className="mb-1">
           <div className="flex justify-between font-light">
             <div className="mb-1">
               <div><a href="https://www.coursera.org/account/accomplishments/certificate/MRQW9SDQB5HH
