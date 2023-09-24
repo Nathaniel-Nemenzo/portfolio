@@ -2,12 +2,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { allProjects } from 'contentlayer/generated';
-import { GitHubIcon } from 'components/icons';
+// import { GitHubIcon } from 'components/icons';
 // import ViewCounter from './view-counter';
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'My programming projects among others.',
+  description: 'My projects.',
 };
 
 export default async function ProjectPage() {
@@ -31,15 +31,14 @@ export default async function ProjectPage() {
           <div className="w-full flex flex-col">
             <p className="font-bold font-serif">{post.title}</p>
             <p className="font-light text-sm text-neutral-500 my-1">{post.publishedAt}</p>
-            <div className="flex flex-wrap">
+            {/* <div className="flex flex-wrap">
             {
               post.keywords.split(',').map((keyword) => (
                 <span className="bg-gray-200 rounded-full px-2 text-sm font-light text-gray-700 mr-2 mt-1" key={keyword}>{keyword}</span>
 
               ))
             }
-            </div>
-            <br/>
+            </div> */}
             <p className="font-light text-neutral-1000">{post.summary}</p>
           </div>
           <hr/>

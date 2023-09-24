@@ -30,12 +30,6 @@ const navItems = {
     y: 104,
     w: '84px',
   },
-  '/resume': {
-    name: 'resume',
-    x: 242,
-    y: 140,
-    w: '78px',
-  }
 };
 
 function Logo() {

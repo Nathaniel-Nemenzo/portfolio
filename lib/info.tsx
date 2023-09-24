@@ -4,17 +4,17 @@ export const name = 'Nathaniel Nemenzo';
 export const avatar = me;
 export const about = () => {
   return (
-    <>
-      Hi! I'm a software engineer and <s>undergraduate</s> graduate(!) student at The University of Texas at Austin. My interests include learning agents, systems, and creating cool things.  <br/><br/>
-    </>
+    <p className='prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200'>
+      Hi, I'm Nathaniel! I'm a software engineer and graduate student at The University of Texas at Austin. <br/><br/>
+    </p>
   );
 };
 export const bio = () => {
   return (
-    <>
-      Previously, I've interned at <b>Amazon</b> inside the AFT organization building AWS applications and at <b>NASA</b> doing research on blockchain-based storage for satellite observation data. I've also spent time in the Learning Agents Research Group at UT Austin during my undergrad. Currently, I'm a Software Engineer I at <b>JPMorgan Chase</b> in Houston, Texas building on <u><a href="https://www.youtube.com/watch?v=3ygPF-Qshkc">Athena</a></u>. Outside of school and work, I love drawing, watching movies, and working on side projects. <br/><br/>
+    <p className='prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200'>
+      Previously, I've interned at <i>Amazon</i> inside the AFT organization building internal tools and at <i>NASA</i> doing research on blockchain-based storage for satellite observation data. Currently, I work at <i>JPMC</i>. Outside of school and work, I love drawing, tennis, and working on side projects. <br/><br/>
 
-      This website is built using Next.js, deployed with Vercel and is based off of a template by Lee Robinson. You can find it <b><a href='https://github.com/leerob/leerob.io'>here.</a></b>
-    </>
+      This website is built using Next.js, deployed with Vercel and is based off of a template by Lee Robinson. You can find it <a href='https://github.com/leerob/leerob.io'>here.</a>
+    </p>
   );
 };
