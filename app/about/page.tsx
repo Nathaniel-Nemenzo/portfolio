@@ -17,14 +17,11 @@ export default function AboutPage() {
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
        <p>
-        I'm currently a master's student at The University of Texas at Austin, where I study computer science through their <a href="https://www.cs.utexas.edu/graduate-program/masters-program/msonline">online master's program</a>. I got my undergraduate degree in computer science from the same university, hook 'em! I'm passionate about building software that <b>is cool</b> and <b>provides for ample learning opportunity</b>, which are not mutually exclusive. <br/><br/>
-
-        As of right now, my interests lie in operating systems and high performance computing, but these tend to change a lot, which I don't think is a bad thing!
+        I'm currently a master's student at The University of Texas at Austin, where I study computer science. I got my undergraduate degree in computer science from the same university. I'm passionate about building software that <b>is reasonably complex</b> and <b>provides learning opportuniy</b>; extra points if said software has an impact on the world. <br/>
        </p> 
        <hr/>
        <p>
-        When relaxing, I love spending time with friends and family. I also enjoy spending time with my girlfriend and playing the piano. I've always been interested in drawing and art, but I find it hard to actually practice and commit to getting good at it. But after watching <a href="https://en.wikipedia.org/wiki/Spider-Man:_Across_the_Spider-Verse">this</a>, I once again am motivated to continue my studies in drawing. <br/><br/>
-        I love reading, but I find it hard to find books that I <i>want</i> to read (currently, I've been binging the <a href='https://en.wikipedia.org/wiki/Jujutsu_Kaisen'>JJK manga</a>). Also, I love listening to music. I listen to almost anything (sorry country music).
+        When relaxing, I love spending time with friends and family. I also enjoy spending time with my girlfriend and playing the piano. I've always been interested in drawing and art, but I find it hard to actually practice and commit to getting good at it. However, I once again am motivated to continue my studies in drawing. <br/><br/>
        </p>
        <div className="flex flex-col gap-2 md:flex-row md:gap-2">
        <a
