@@ -8,7 +8,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Student at the University of Texas at Austin'
+  description: 'Software Engineer and Graduate Student'
 }
 
 export default function AboutPage() {
@@ -17,11 +17,11 @@ export default function AboutPage() {
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
        <p>
-        I'm currently a master's student at The University of Texas at Austin, where I study computer science. I got my undergraduate degree in computer science from the same university. I'm passionate about building software that <b>is reasonably complex</b> and <b>provides learning opportuniy</b>; extra points if said software has an impact on the world. <br/>
+        I currently work at Amazon, where I am a software engineer. In addition, I'm a computer science master's student at The University of Texas at Austin. I got my undergraduate degree in computer science from the same university (hook 'em). I would consider myself a serial hobbyist. My current hobbies are: running and cooking. <br/>
        </p> 
        <hr/>
        <p>
-        When relaxing, I love spending time with friends and family. I also enjoy spending time with my girlfriend and playing the piano. I've always been interested in drawing and art, but I find it hard to actually practice and commit to getting good at it. However, I once again am motivated to continue my studies in drawing. <br/><br/>
+        Outside of work, school, programming, etc., I enjoy spending time with those that I love. Time goes too fast and it is our duty to slow it down a bit and do the things that we would regret not doing. Therefore, I'm trying to spend more time away from the screen and more time exploring my interests and the world around me.  
        </p>
        <div className="flex flex-col gap-2 md:flex-row md:gap-2">
        <a
